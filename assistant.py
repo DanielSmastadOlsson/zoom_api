@@ -5,8 +5,10 @@
 import http.client
 import webbrowser
 from tkinter import *
-progtitle="Assistants in Zoom (V 202103102205)"
-print(progtitle , ". / smastad@gmail.com")
+
+
+progtitle="Assistants in Zoom (V 202103102205)" # date and time to indicate version.
+
 root=Tk()
 root.title(progtitle)
 a = Label(root, text="Add assistant in Zoom.")
